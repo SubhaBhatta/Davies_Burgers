@@ -14,19 +14,19 @@
         <h1>Create a burger!</h1>
 				<section class="protein">
           <label for="patty">What type of patty would you like?</label>
-    			<input type="text" name="patty" id="patty" placeholder="">
+    		<input type="text" name="patty" id="patty" placeholder="" required>
         </section>
         <hr>
         <section class="patties">
           <label for="amount">How many patties would you like?</label>
-					<input type="number" step="1" id="amount" name="amount" placeholder="">
+		<input type="number" step="1" id="amount" name="amount" placeholder="" required>
         </section>
         <hr>
         <section class="cooked">
             <label for="doneness">How do you want your patty cooked</label>
             <br>
             <span>Rare</span>
-            <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+            <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5" required>
             <span>Well-Done</span>
           </section>
           <hr>
