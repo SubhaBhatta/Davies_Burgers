@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>ORDER PAGE</title>
+  </head>
+  <body id="friend">
+    <section id="overlay">
+      <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+      <hr>
+      <form>
+        <h1>Create a burger!</h1>
+				<section class="protein">
+          <label for="patty">What type of patty would you like?</label>
+    			<input type="text" name="patty" id="patty" placeholder="">
+        </section>
+        <hr>
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+					<input type="number" step="1" id="amount" name="amount" placeholder="">
+        </section>
+        <hr>
+        <section class="cooked">
+            <label for="doneness">How do you want your patty cooked</label>
+            <br>
+            <span>Rare</span>
+            <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+            <span>Well-Done</span>
+          </section>
+          <hr>
+          <section>
+            <label>Choose your burger toppings:</label>
+            <br>
+            <label for="Pepperoni">Pepperoni</label>
+            <input id="Pepperoni" name="topping" type="checkbox" value="Pepperoni">
+            <br>
+            <label for="lettuce">Onion</label>
+            <input id="lettuce" name="topping" type="checkbox" value="lettuce">
+            <br>
+            <label for="Tomato">Tomato</label>
+            <input id="Tomato" name="topping" type="checkbox" value="Tomato">
+            <br>
+          </section>
+          <hr>
+          <section>
+            <label>Would you like to add cheese?</label>
+            <br>
+            <input type="radio" id="yes" name="cheese" value="yes">
+            <label for="yes">Yes</label>
+            <br>
+            <input type="radio" id="no" name="cheese" value="no">
+            <label for="no">No</label>
+          </section>
+          <hr>
+          <section class="bun-type">
+            <label for="bun">What type of bun would you like?</label>
+            <select id="bun" name="bun">
+            <option value="sesame">Sesame</option>
+            <option value="potato">Potato</option>
+            <option value="Whole wheat bun">Whole wheat bun</option>
+            </select>
+          </section>
+          <hr>
+          <section>
+            <label>Choose your burger sauces:</label>
+            <br>
+            <label for="Mustard">Mustard</label>
+            <input id="Mustard" name="sauces" type="checkbox" value="Mustard">
+            <br>
+            <label for="Mayo">Mayo</label>
+            <input id="Mayo" name="sauces" type="checkbox" value="Mayo">
+            <br>
+            <label for="Tomato">Tomato</label>
+            <input id="Tomato" name="topping" type="checkbox" value="Tomato">
+            <br>
+          </section>
+          <hr>
+          <section class="extra-info">
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+                <textarea id="extra" name="extra" rows="3" cols="40" placeholder="ADD ANY THINK YOU WANT TO HAVE WITH BURGER SUCH AS COKE AND FRIES!"></textarea>
+                <hr>
+        <a id="subhadaya" href="delivery.html">ENTER</a>
+      </form>
+    </section>
+  </body>
+</html>

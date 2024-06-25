@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(57, 169, 219);
+    font-family: Rubik, Arial;
+    color: #3DC2EC;
+  }
+  
+  form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .toppings label, .cheesy label {
+    margin-right: 25px;
+  }
+
+  #subhadaya{
+    font-size: xx-large;
+    color: red;
+  }
+
+  #patty,#amount input{
+    size: xx-large;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+
+  input[type="radio"][disabled] + label {
+    color: #999;
+    cursor: not-allowed;
+  }
+
+  input[type="radio"][disabled] {
+    display: none;
+  }
+
+  #friend{
+    size: auto;
+  }
+
